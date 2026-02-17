@@ -1,523 +1,202 @@
-#parent{
+.parent{
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    background-color: black;
+    background-size: cover;
+    background: url(image/bg-pattern-bottom-desktop.svg);
 }
 body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#divform{
+p{
     position: absolute;
-    height: 75%;
+    top: 7%;
+    left: 10%;
+}
+.user{
+    font-size: 2.5em;
+    color: rgb(68, 13, 68);
+}
+.we{
+    font-size: 0.98em;
+    font-weight: 550;
+    color: rgb(136, 125, 125);
+}
+.box1{
+    position: absolute;
+    height: 33%;
+    width: 23%;
+    top: 50%;
+    left: 10%;
+    border-radius: 7px;
+    background-color: rgb(68, 13, 68);
+}
+.coltimg{
+    position: absolute;
+    height: 15%;
+    left: 13%;
+    top: 23%;
+    border-radius: 30px;
+}
+.colt{
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: white;
+    font-weight: 700;
+}
+.ver1{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: rgb(168, 70, 70);
+    font-weight: 550;
+}
+.need{
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 550;
+    top: 50%;
+    left: 15%;
+    font-size: 0.87em;
+}
+.box2{
+    position: absolute;
+    height: 33%;
+    width: 23%;
+    top: 55%;
+    left: 36%;
+    border-radius: 7px;
+    background-color: rgb(68, 13, 68);
+}
+.ireneimg{
+    position: absolute;
+    height: 15%;
+    left: 13%;
+    top: 23%;
+    border-radius: 30px;
+}
+.irene{
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: white;
+    font-weight: 700;
+}
+.ver2{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: rgb(168, 70, 70);
+    font-weight: 550;
+}
+.cust{
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 550;
+    top: 50%;
+    left: 15%;
+    font-size: 0.87em;
+}
+.box3{
+    position: absolute;
+    height: 33%;
+    width: 23%;
+    top: 60%;
+    left: 62%;
+    border-radius: 7px;
+    background-color: rgb(68, 13, 68);
+}
+.anneimg{
+    position: absolute;
+    height: 15%;
+    left: 13%;
+    top: 23%;
+    border-radius: 30px;
+}
+.anne{
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: white;
+    font-weight: 700;
+}
+.ver3{
+    position: absolute;
+    top: 31%;
+    left: 30%;
+    font-size: 1.5em calc(4);
+    color: rgb(168, 70, 70);
+    font-weight: 550;
+}
+.put{
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 550;
+    top: 50%;
+    left: 15%;
+    font-size: 0.87em;
+}
+.rect1{
+    position: absolute;
+    height: 7%;
     width: 25%;
     top: 15%;
-    justify-self: center;
-    border-radius: 7px;
-    background-color: rgb(37, 36, 36);
-}
-#div2 img{
-    position: absolute;
-    height: 13%;
-    top: 7%;
-    left: 37%;
-    border-radius: 50px;
-    background-size: cover;
-}
-#jes{
-    position: absolute;
-    top: 23%;
-    left: 25%;
-    font-size: 23px;
-    font-weight: bolder;
-    color: white;
-}
-#lon{
-    position: absolute;
-    font-size: 12px;
-    left: 27%;
-    top: 31%;
-    font-weight: bolder;
-    color: rgb(143, 143, 36);
-}
-#front{
-    position: absolute;
-    top: 38%;
-    left: 18%;
-    font-size: 14px;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-    font-size: 15px;
-}
-#par{
-    position: absolute;
-    top: 43%;
-    left: 11%;
-    display: grid;
-    gap: 10px;
-}
-#git{
-    padding: 10px;
-    width: 250px;
+    left: 55%;
     border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
+    background-color: rgb(233, 214, 233);
 }
-#git:hover{
-    color: magenta;
-    background-color: white;
+.starimg{
+    position: absolute;
+    left: 7%;
+    top: 28%;
 }
-#front2{
-    padding: 10px;
-    width: 250px;
+.review{
+    position: absolute;
+    top: 28%;
+    left: 45%;
+    color:rgb(68, 13, 68);
+    font-size: 0.98em;
+    font-weight: 700;
+}
+.rect2{
+    position: absolute;
+    height: 7%;
+    width: 25%;
+    top: 25%;
+    left: 60%;
     border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
+    background-color: rgb(233, 214, 233);
 }
-#front2:hover{
-    color: blueviolet;
-    background-color: white;
-}
-#link{
-    padding: 10px;
-    width: 250px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#link:hover{
-    color: maroon;
-    background-color: white;
-}
-#twit{
-    padding: 10px;
-    width: 250px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#twit:hover{
-    color: turquoise;
-    background-color: white;
-}
-#insta{
-    padding: 10px;
-    width: 250px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#insta:hover{
-    color: chocolate;
-    background-color: white;
-}
-@media(max-width:320px){
-    #parent{
+.guru{
     position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#divform{
-    position: absolute;
-    height: 70%;
-    width: 90%;
-    top: 15%;
-    justify-self: center;
-    border-radius: 7px;
-    background-color: rgb(37, 36, 36);
-}
-#div2 img{
-    position: absolute;
-    height: 13%;
-    top: 7%;
-    left: 37%;
-    border-radius: 50px;
-    background-size: cover;
-}
-#jes{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-}
-#lon{
-    position: absolute;
-    font-size: 10px;
-    left: 25%;
-    top: 31%;
-    font-weight: bolder;
-    color: rgb(143, 143, 36);
-}
-#front{
-    position: absolute;
-    top: 38%;
-    left: 14%;
-    font-size: 12px;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-#par{
-    position: absolute;
-    top: 40%;
-    left: 8%;
-    display: grid;
-    gap: 5px;
-}
-#git{
-    padding: 10px;
-    width: 220px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#front2{
-    padding: 10px;
-    width: 220px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#link{
-    padding: 10px;
-    width: 220px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#twit{
-    padding: 10px;
-    width: 220px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#insta{
-    padding: 10px;
-    width: 220px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-}
-@media(min-width:321px) and (max-width:375px){
-      #parent{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#divform{
-    position: absolute;
-    height: 70%;
-    width: 75%;
-    top: 15%;
-    justify-self: center;
-    border-radius: 7px;
-    background-color: rgb(37, 36, 36);
-}
-#div2 img{
-    position: absolute;
-    height: 13%;
-    top: 7%;
-    left: 37%;
-    border-radius: 50px;
-    background-size: cover;
-}
-#jes{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-}
-#lon{
-    position: absolute;
-    font-size: 10px;
-    left: 25%;
-    top: 31%;
-    font-weight: bolder;
-    color: rgb(143, 143, 36);
-}
-#front{
-    position: absolute;
-    top: 38%;
-    left: 14%;
-    font-size: 12px;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-#par{
-    position: absolute;
-    top: 40%;
-    left: 11%;
-    display: grid;
-    gap: 5px;
-}
-#git{
-    padding: 10px;
-    width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#front2{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#link{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#twit{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#insta{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}  
-}
-@media(min-width:376px) and (max-width:425px){
-    #parent{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#divform{
-    position: absolute;
-    height: 70%;
-    width: 75%;
-    top: 15%;
-    justify-self: center;
-    border-radius: 7px;
-    background-color: rgb(37, 36, 36);
-}
-#div2 img{
-    position: absolute;
-    height: 13%;
-    top: 7%;
-    left: 37%;
-    border-radius: 50px;
-    background-size: cover;
-}
-#jes{
-    position: absolute;
-    top: 23%;
-    left: 23%;
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
-}
-#lon{
-    position: absolute;
-    font-size: 10px;
-    left: 25%;
-    top: 31%;
-    font-weight: bolder;
-    color: rgb(143, 143, 36);
-}
-#front{
-    position: absolute;
-    top: 38%;
-    left: 14%;
-    font-size: 12px;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-#par{
-    position: absolute;
-    top: 40%;
-    left: 11%;
-    display: grid;
-    gap: 5px;
-}
-#git{
-    padding: 10px;
-    width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#front2{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#link{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#twit{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#insta{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}  
-}
-@media(min-width:426px) and (max-width:768px){
-          #parent{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-}
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-#divform{
-    position: absolute;
-    height: 70%;
-    width: 75%;
-    top: 15%;
-    justify-self: center;
-    border-radius: 7px;
-    background-color: rgb(37, 36, 36);
-}
-#div2 img{
-    position: absolute;
-    height: 13%;
-    top: 7%;
+    top: 28%;
     left: 40%;
-    border-radius: 50px;
-    background-size: cover;
+    color:rgb(68, 13, 68);
+    font-size: 0.98em;
+    font-weight: 700;
 }
-#jes{
+.rect3{
     position: absolute;
-    top: 23%;
-    left: 28%;
-    font-size: 20px;
-    font-weight: bolder;
-    color: white;
+    height: 7%;
+    width: 25%;
+    top: 35%;
+    left: 65%;
+    border-radius: 5px;
+    background-color: rgb(233, 214, 233);
 }
-#lon{
+.best{
     position: absolute;
-    font-size: 10px;
-    left: 32%;
-    top: 31%;
-    font-weight: bolder;
-    color: rgb(143, 143, 36);
-}
-#front{
-    position: absolute;
-    top: 38%;
-    left: 18%;
-    font-size: 12px;
-    color: white;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 13px;
-}
-#par{
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    display: grid;
-    gap: 5px;
-}
-#git{
-    padding: 10px;
-    width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#front2{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#link{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#twit{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}
-#insta{
-    padding: 10px;
-   width: 200px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: rgb(58, 57, 57);
-}  
+    top: 28%;
+    left: 40%;
+    color:rgb(68, 13, 68);
+    font-size: 0.98em;
+    font-weight: 700;
 }
